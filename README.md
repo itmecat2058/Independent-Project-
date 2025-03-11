@@ -1,4 +1,5 @@
 *Proposal*
+
 You have enough skills now to define your own project. This can be independent or a collaborative effort (with limitations and expectations). Regardless of whether you'll be working alone or in groups, you need to start with a project proposal.
 
 Think through something a website would be helpful for. This could be a site for a club or sport, an informative site on a topic you care about, a personal project (think the CSS grid project but much more in depth), or something you just want to try.
