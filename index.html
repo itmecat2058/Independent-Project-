@@ -9,51 +9,58 @@
 </head>
 <body>
     <main class="grid container">
+        <!-- Quack -->
         <div class="quack item">
             <h2>DUCK!!!</h2>
-            <button class="quack" onclick="playQuack()">Click</button>
+            <button class="quack" onclick="playSound(`quack`)">Click</button>
         </div>
-        <!-- quack -->
+        <!-- Opening a can of monster -->
         <div class="can item">
             <h2>Can</h2>
-            <button class="can button" onclick="playCan()">Click</button>
+            <button class="can button" onclick="playSound(`can`)">Click</button>
         </div>
-        <!-- opening a can of monster -->
+        <!-- Clash of clans opening music -->
         <div class="clash item">
             <h2>Clash of clans</h2>
-            <button class="clash button" onclick="playClash()">Click</button>
+            <button class="clash button" onclick="playSound(`clash`)">Click</button>
         </div>
-        <!-- clash of clans opening music -->
+        <!-- Random peokemon noises -->
         <div class="pokemon item">
             <h2>Pokemon</h2>
-            <button class="pokemon button" onclick="playPokemon()">Click</button>
+            <button class="pokemon button" onclick="playSound(`pokemon`)">Click</button>
         </div>
-        <!-- random peokemon noises -->
+        <!-- Funny skeleton man -->
         <div class="megalovania item">
             <h2>Megalovania</h2>
-            <button class="megalovania button" onclick="playMegalovania()">Click</button>
+            <button class="megalovania button" onclick="playSound(`megalovania`)">Click</button>
         </div>
-        <!-- funny skeleton man -->
+        <!-- Rickroll -->
         <div class="rickroll item">
             <h2>Dog</h2>
-            <button class="rickroll button" onclick="playRoll()">Click</button>
+            <button class="rickroll button" onclick="playSound(`roll`)">Click</button>
         </div>
-        <!-- rickroll -->
+        <!-- Lego falling apart sound -->
         <div class="lego item">
             <h2>Lego</h2>
-            <button class="lego button" onclick="playLego()">Click</button>
+            <button class="lego button" onclick="playSound(`lego`)">Click</button>
         </div>
-        <!-- lego falling apart sound -->
+        <!-- Roblox OOF -->
         <div class="oof item">
             <h2>OOF!!!</h2>
-            <button class="oof button" onclick="playOOF()">Click</button>
+            <button class="oof button" onclick="playSound(`oof`)">Click</button>
         </div>
-        <!-- roblox oof -->
+        <!-- The Pan -->
          <div class="dooong item">
             <h2>yes</h2>
-            <button class="dooong button" onclick="playDooong()">Click</button>
+            <button class="dooong button" onclick="playSound(`dooong`)">Click</button>
          </div>
-         <!-- the pan -->
+        <!-- Upload custom sound -->
+         <div class="custom item">
+            <h2>Upload your own!</h2>
+            <input type="file" id="musicFile" accept="audio/*">
+            <button onclick="playCustSound()">Play</button>
+            <audio id="musicPlayer"></audio>
+         </div>
     </main>
 </body>
 </html>
