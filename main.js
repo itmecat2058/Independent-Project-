@@ -4,8 +4,8 @@ function playSound(audio) {
 };
 
 function playCustSound() {
-    var musicFile = document.getElementById("musicFile").files[0];
-    var musicPlayer = document.getElementById("musicPlayer");
-    musicPlayer.src = URL.createObjectURL(musicFile);
-    musicPlayer.play();
+    var soundFile = document.getElementById("soundFile").files[0];
+    var soundPlayer = document.getElementById("soundPlayer");
+    soundPlayer.src = URL.createObjectURL(soundFile);
+    soundPlayer.play();
   }
