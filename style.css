@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+.quack { background-color: #ffe066; }
+.can { background-color: #d9d9d9; }
+.clash { background-color: #ff9999; }
+.pokemon { background-color: #66ccff; }
+.megalovania { background-color: #9933ff; }
+.rickroll { background-color: #ff66b3; }
+.lego { background-color: #ffcc00; }
+.oof { background-color: #66ff66; }
+.dooong { background-color: #ff3333; }
+.custom { background-color: #80b3ff; }
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+input[type="file"] {
+    margin: 10px 0;
+    display: block;
+    width: 100%;
+}
