@@ -21,16 +21,16 @@ body {
     max-width: 1000px;
     width: 100%;
 }
-.quack { background-color: #ffe066; }
-.can { background-color: #d9d9d9; }
-.clash { background-color: #ff9999; }
-.pokemon { background-color: #66ccff; }
-.megalovania { background-color: #9933ff; }
-.rickroll { background-color: #ff66b3; }
-.lego { background-color: #ffcc00; }
-.oof { background-color: #66ff66; }
-.dooong { background-color: #ff3333; }
-.custom { background-color: #80b3ff; }
+.quack.item { background-color: #ffe066; }
+.can.item { background-color: #d9d9d9; }
+.clash.item { background-color: #ff9999; }
+.pokemon.item { background-color: #66ccff; }
+.megalovania.item { background-color: #9933ff; }
+.rickroll.item { background-color: #ff66b3; }
+.lego.item { background-color: #ffcc00; }
+.oof.item { background-color: #66ff66; }
+.dooong.item { background-color: #ff3333; }
+.custom.item { background-color: #80b3ff; }
 
 h2 {
     font-size: 1.2rem;
@@ -45,11 +45,17 @@ button {
     background-color: rgba(0,0,0,0.1);
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.2s ease;
+    justify-self: end;
 }
 
-input[type="file"] {
+#soundFile {
     margin: 10px 0;
     display: block;
     width: 100%;
+}
+
+.item {
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
 }
