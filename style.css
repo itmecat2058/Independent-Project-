@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f0f0f0;
+    background-color: linen;
     font-family: Arial, sans-serif;
     min-height: 100vh;
     display: flex;
@@ -36,6 +36,7 @@ h2 {
     font-size: 1.2rem;
     margin-bottom: 10px;
     color: #333;
+    align-self: center;
 }
 
 button {
@@ -58,4 +59,9 @@ button {
     min-height: 100px;
     display: flex;
     flex-direction: column;
+}
+
+h1 {
+    color: chartreuse;
+    background-color: black;
 }
